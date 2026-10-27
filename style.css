@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
 
 :root { color-scheme: dark; --bg: #0b1220; --bg-soft: #101b2d; --surface: #152338; --surface-raised: #1b2b42; --header: rgba(10, 17, 31, .94); --text: #f4f7fc; --text-soft: #c4d0e2; --muted: #91a2ba; --line: rgba(159, 180, 208, .17); --accent: #3478f6; --accent-bright: #38bdf8; --accent-contrast: #fff; --hero-glow: rgba(39, 125, 191, .20); --shadow: 0 22px 55px rgba(0, 0, 0, .20); --grid-line: rgba(125, 159, 198, .045); --transition: .25s ease; }
-html[data-theme="light"] { color-scheme: light; --bg: #f7f9fc; --bg-soft: #eef3fa; --surface: #ffffff; --surface-raised: #f5f8fd; --header: rgba(255, 255, 255, .93); --text: #142034; --text-soft: #34445c; --muted: #64748b; --line: rgba(46, 67, 98, .15); --accent: #245fdf; --accent-bright: #087fae; --accent-contrast: #fff; --hero-glow: rgba(61, 145, 207, .13); --shadow: 0 22px 55px rgba(30, 58, 91, .10); --grid-line: rgba(55, 92, 140, .055); }
+html[data-theme="light"] { color-scheme: light; --bg: #f7f9fc; --bg-soft: #eef3fa; --surface: #ffffff; --surface-raised: #f5f8fd; --header: rgba(255, 255, 255, .93); --text: #142B4A; --text-soft: #243D5C; --muted: #64748b; --line: rgba(46, 67, 98, .15); --accent: #245fdf; --accent-bright: #087fae; --accent-contrast: #fff; --hero-glow: rgba(61, 145, 207, .13); --shadow: 0 22px 55px rgba(30, 58, 91, .10); --grid-line: rgba(55, 92, 140, .055); }
 * { box-sizing: border-box; }
 html { scroll-behavior: smooth; scroll-padding-top: 90px; }
 body { margin: 0; background: var(--bg); color: var(--text); font-family: Inter, system-ui, -apple-system, "Segoe UI", sans-serif; line-height: 1.7; transition: background var(--transition), color var(--transition); }
