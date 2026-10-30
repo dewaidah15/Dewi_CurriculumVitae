@@ -149,18 +149,13 @@ html[data-theme="light"] .project-art-violet { background: linear-gradient(135de
 .contact-glow { position: absolute; top: -170px; right: -70px; width: 350px; height: 350px; border-radius: 50%; background: var(--hero-glow); filter: blur(20px); pointer-events: none; }
 .contact-panel > *:not(.contact-glow) { position: relative; z-index: 1; }
 /* Label KONTAK */
-
 .contact-panel .section-index { margin-bottom: 15px; text-align: center; }
 /* Judul Hubungi Saya */
-
 .contact-panel h2 { margin: 0 0 16px; font-size: clamp(2rem, 4vw, 3rem); line-height: 1.2; font-weight: 800; letter-spacing: -1.5px; text-align: center; color: var(--text); }
 /* Deskripsi kontak */
-
 .contact-text { max-width: 550px; margin: 0 auto 30px; color: var(--muted); font-size: .91rem; line-height: 1.85; text-align: center; }
 /* Baris kontak */
-
 .contact-socials { display: flex; align-items: center; justify-content: space-evenly; flex-wrap: wrap; gap: 20px 30px; width: 100%; margin-top: 30px; padding-top: 25px; border-top: 1px solid var(--line); }
-
 /* Link kontak yang menandakan elemen dapat diklik */
 .contact-socials a {
     display: inline-flex;
@@ -168,15 +163,14 @@ html[data-theme="light"] .project-art-violet { background: linear-gradient(135de
     justify-content: center;
     gap: 9px;
     color: var(--accent-bright);
-    font-size: .99rem;
+    font-size: 1.35rem;
     font-weight: 600;
     white-space: nowrap;
     transition: color var(--transition), transform var(--transition);
 }
-
 .contact-socials a i {
     display: inline-block;
-    font-size: 1.5rem;
+    font-size: 2rem;
     line-height: 1;
     font-style: normal;
     flex-shrink: 0;
@@ -695,10 +689,8 @@ so each card reads as an individual, spaced card instead of edge-to-edge content
 .project-showcase > [class*="col-"] { width: auto; max-width: none; padding: 0; min-width: 0; }
 .project-tile { border-radius: 22px; }
 .project-visual img { max-width: 100%; }
-
 @media (max-width: 991.98px) {.container { width: calc(100% - 20px); }
 .project-showcase { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 20px; }
-
 }
 
 @media (max-width: 575.98px) {.container { width: calc(100% - 20px); }
@@ -709,12 +701,10 @@ so each card reads as an individual, spaced card instead of edge-to-edge content
 /* =====================================
    SCROLL-LINKED REVEAL
 ===================================== */
-
 .scroll-reveal {
     opacity: 0;
     transform: translateY(70px);
 }
-
 /* Gerakan mengikuti posisi scroll */
 @supports (animation-timeline: view()) {
     .scroll-reveal:not(.is-revealed) {
@@ -726,7 +716,6 @@ so each card reads as an individual, spaced card instead of edge-to-edge content
         animation-range: entry 0% entry 100%;
     }
 }
-
 @keyframes revealFromBottom {
     from {
         opacity: 0;
